@@ -1,192 +1,125 @@
-# ✅ 소프트웨어(SW) · 인공지능(AI) · 전자 SW 통합 정리
-
----
-
-## 1. Java 프로그래밍
-
-### 🔹 1) 구조적 프로그래밍
-
-* **기초 개념**: 변수, 상수(리터럴), 객체
-* **제어문**: `if`, `switch`
-* **반복문**
-
-  * `while`, `for`, `for-each`
-  * 이중 반복문: 구구단, 별 출력 등
-* **자료구조**
-
-  * 배열, 구조체
-  * 스택, 큐, 덱(Deque), 힙, 트리 등
-* **함수(메서드)**: 모듈화, 재사용성 확보
-
-### 🔹 2) 객체지향 프로그래밍 (OOP)
-
-* **OOP 4대 원칙**: 캡슐화, 상속, 다형성, 추상화
-* **디자인 패턴**
-
-  * 싱글톤, 팩토리, 옵저버 등
-* **리팩토링**
-
-  * 코드 최적화, 유지보수성 향상
-* **고급 요소**
-
-  * 람다식, 스트림 API (함수형 프로그래밍 요소)
-  * AOP (관점지향 프로그래밍): 스프링 프레임워크에서 자주 사용
-
-### 🔹 3) 개발 환경 및 도구
-
-* **IDE**
-
-  * Eclipse, IntelliJ IDEA (커뮤니티 / 얼티밋)
-  * Android Studio (모바일 앱 개발용)
-* **JDK**
-
-  * OpenJDK (무료), Oracle JDK (상용)
-  * 최신 버전: JDK 21 이상
-
----
-
-## 2. AI & 자료구조 · 알고리즘
-
-### 🔹 1) 자료구조 & 알고리즘
-
-* **기초 구조**: 배열, 연결 리스트, 트리, 그래프
-* **알고리즘 개념**: 정렬, 탐색, 재귀, DP
-* **복잡도 분석**: 시간 복잡도, 공간 복잡도 (Big-O)
-
-### 🔹 2) AI 활용 도구
-
-* **개발 보조 AI**
-
-  * Cursor, GitHub Copilot, Claude Code 등
-* **대화형 AI**
-
-  * ChatGPT, Google Gemini
-
----
-
-## 3. 임베디드 & 펌웨어 (C언어 기반)
-
-### 🔹 1) MCU(Microcontroller Unit)
-
-* **주요 MCU**: AVR, Arduino, Raspberry Pi (리눅스 기반)
-* **ARM Cortex 계열**
-
-  * **Cortex-M**: 저전력, STM32 (산업용)
-  * **Cortex-A**: 고성능, 모바일 CPU (Snapdragon, Exynos 등)
-
-### 🔹 2) 펌웨어 개발
-
-* C 언어 기반의 하드웨어 제어 코드
-* 인터럽트, 레지스터 제어, RTOS (실시간 OS) 사용
-
----
-
-## 4. Python & AI 프레임워크
-
-### 🔹 주요 프레임워크
-
-* **TensorFlow**: 구글에서 개발, 대규모 프로젝트에 적합
-* **PyTorch**: 직관적인 코드, 연구 및 실험에 많이 사용
-
-### 🔹 Python 기반 AI 개발
-
-* **기초 라이브러리**: NumPy, Pandas, Matplotlib
-* **모델 개발**: 신경망, CNN, RNN, LSTM 등
-* **모델 학습 및 추론**: GPU 가속, 모델 저장/배포
-
----
-
-## 5. Java + Android + AI
-
-### 🔹 안드로이드에서 AI 활용
-
-* **온디바이스 AI**: TensorFlow Lite, ML Kit
-* **AI 모델 직접 적용**
-
-  * 이미지 처리, 음성 인식, 텍스트 분류
-* **Java/Kotlin** 기반 안드로이드 개발
-
-  * Jetpack, ViewModel, LiveData 등과 연계
-
----
-
-## 6. AI + 웹 개발
-
-### 🔹 1) 프론트엔드
-
-* **기초 기술**: HTML, CSS, JavaScript
-* **라이브러리/프레임워크**
-
-  * jQuery: 간단한 DOM 조작
-  * React.js / Next.js: 컴포넌트 기반 SPA, SSR 지원
-
-### 🔹 2) 백엔드
-
-* **Java 기반**
-
-  * Spring Framework / Spring Boot
-  * JSP (과거 사용 빈도 높았음)
-  * 정부 표준 프레임워크
-* **Node.js**
-
-  * JavaScript 런타임, Nest.js (백엔드용 프레임워크)
-
----
-
-## 7. 전자 소프트웨어 (전자공학 + SW)
-
-### 🔹 1) 기초 이론
-
-* **회로 이론**: 저항, 커패시터, 트랜지스터 등
-* **디지털 회로**: AND, OR, NOT, 플립플롭 등
-
-### 🔹 2) 하드웨어 설계
-
-* **PCB 설계**: 회로도 작성, 배선, Gerber 파일 생성
-* **EDA 툴**: Altium Designer, KiCad, EasyEDA 등
-
-### 🔹 3) 산업용 로봇
-
-* **주요 제조사**: 현대 로보틱스, KUKA, FANUC, ABB
-* **기술 요소**: 서보모터, 센서, 위치 제어
-
-### 🔹 4) 공장 자동화 (FA)
-
-* **PLC 제어**
-
-  * 브랜드: Siemens, Mitsubishi, LS Electric
-* **적용 사례**: 자동차 조립, 스마트 팩토리
-
-### 🔹 5) 협동로봇 (Cobots)
-
-* **주요 업체**
-
-  * Universal Robots (글로벌 1위)
-  * 두산 로보틱스, 뉴로메카 등
-* **특징**: 안전한 인간-로봇 협업, 간단한 프로그래밍
-
-### 🔹 6) 휴머노이드 로봇 (AI 기반)
-
-* **핵심 기술 스택**
-
-  * ROS (Robot Operating System)
-  * 마이크로프로세서 + 펌웨어 + 센서 융합
-  * 온디바이스 AI, Android 연동
-* **주요 기업**
-
-  * 레인보우 로보틱스, 로보티즈
-
----
-
-# 📌 참고 요약 (한눈에 보기)
-
-| 분야          | 핵심 기술/도구                       |
-| ----------- | ------------------------------ |
-| Java        | OOP, 디자인패턴, Eclipse, IntelliJ  |
-| AI          | TensorFlow, PyTorch, Python    |
-| 임베디드        | C언어, MCU, STM32, 펌웨어           |
-| 웹 개발        | React, Spring Boot, Node.js    |
-| 안드로이드       | Android Studio, ML Kit, Kotlin |
-| 자료구조/알고리즘   | 배열, 트리, DP, Big-O              |
-| 전자 SW       | PCB, 회로이론, PLC, 로봇 제어          |
-| 협동/휴머노이드 로봇 | ROS, 제어공학, 온디바이스 AI            |
+📘 소프트웨어(SW) · 인공지능(AI) · 전자 SW 통합 정리
+
+📌 목차
+
+1. [Java 프로그래밍](#1-java-프로그래밍)  
+2. [AI & 자료구조 · 알고리즘](#2-ai--자료구조--알고리즘)  
+3. [임베디드 & 펌웨어 (C언어)](#3-임베디드--펌웨어-c언어)  
+4. [Python & AI 프레임워크](#4-python--ai-프레임워크)  
+5. [Java + Android + AI](#5-java--android--ai)  
+6. [AI + 웹 개발](#6-ai--웹-개발)  
+7. [전자 소프트웨어 (전자공학 + SW)](#7-전자-소프트웨어-전자공학--sw)  
+8. [요약 표](#8-📋-참고-요약표)
+
+1. Java 프로그래밍
+
+🔹 구조적 프로그래밍
+- 변수, 상수, 객체
+- 제어문: `if`, `switch`
+- 반복문: `while`, `for`, `for-each`
+  - 이중 반복문: 구구단, 별 출력 등
+- 자료구조: 배열, 구조체, 스택, 큐, 덱, 힙, 트리
+- 함수(메서드): 모듈화
+
+🔹 객체지향 프로그래밍 (OOP)
+- OOP 원칙: 캡슐화, 상속, 다형성, 추상화
+- 디자인 패턴: 싱글톤, 팩토리, 옵저버 등
+- 리팩토링: 코드 개선, 유지보수성 향상
+- 고급: 람다식, 스트림 API, AOP
+
+🔹 개발 환경
+- IDE: Eclipse, IntelliJ (Community / Ultimate), Android Studio
+- JDK: OpenJDK, Oracle JDK 21+
+
+2. AI & 자료구조 · 알고리즘
+
+🔹 자료구조 & 알고리즘
+- 기본 구조: 배열, 리스트, 트리, 그래프
+- 알고리즘: 정렬, 탐색, 재귀, DP
+- 복잡도: 시간/공간 복잡도 (Big-O)
+
+🔹 AI 관련 도구
+- 개발 보조: Cursor, Claude Code
+- 생성형 AI: ChatGPT, Google Gemini
+
+3. 임베디드 & 펌웨어 (C언어)
+
+🔹 MCU 종류
+- AVR, Arduino, Raspberry Pi
+- ARM Cortex
+  - Cortex-M (STM32 등): 저전력, 산업용
+  - Cortex-A: 고성능 모바일 CPU
+
+🔹 펌웨어 설계
+- C언어 기반 제어
+- 인터럽트, 레지스터 제어
+- RTOS 사용 가능
+
+4. Python & AI 프레임워크
+
+🔹 주요 프레임워크
+- TensorFlow (Google)
+- PyTorch (Meta)
+
+🔹 AI 개발 요소
+- 기초 라이브러리: NumPy, Pandas, Matplotlib
+- 신경망: CNN, RNN, LSTM
+- 모델 학습/추론, GPU 활용
+
+5. Java + Android + AI
+
+🔹 안드로이드에서 AI 활용
+- 온디바이스 AI: TensorFlow Lite, ML Kit
+- Java/Kotlin 기반 개발
+- Jetpack, ViewModel 등 최신 아키텍처 사용
+
+6. AI + 웹 개발
+
+🔹 프론트엔드
+- HTML, CSS, JavaScript
+- jQuery
+- React.js, Next.js (SSR 지원)
+
+🔹 백엔드
+- Java: Spring Framework, Spring Boot, JSP
+- 정부 표준 프레임워크
+- Node.js: Nest.js 프레임워크 포함
+
+7. 전자 소프트웨어 (전자공학 + SW)
+
+🔹 기초 이론
+- 회로 이론 (저항, 전압, 전류 등)
+- 디지털 회로 (AND, OR, 플립플롭 등)
+
+🔹 하드웨어 설계
+- PCB 회로 설계 및 제작
+- 툴: Altium, KiCad, EasyEDA
+
+🔹 산업용 로봇
+- 주요 업체: 현대 로보틱스, KUKA, ABB
+- 제어 기술: 서보모터, 센서, 위치제어
+
+🔹 공장 자동화
+- PLC 제어 시스템
+  - 브랜드: Siemens, Mitsubishi, LS산전
+
+🔹 협동로봇 (Cobots)
+- 대표 업체: Universal Robots, 두산, 뉴로메카
+- 특징: 안전성, 쉬운 프로그래밍
+
+🔹 휴머노이드 로봇
+- 기술: ROS, 센서 융합, 온디바이스 AI, Android 연동
+- 기업: 레인보우 로보틱스, 로보티즈
+
+8. 📋 참고 요약표
+
+| 분야 | 핵심 기술/도구 |
+|------|----------------|
+| Java | OOP, 디자인패턴, Eclipse, IntelliJ |
+| AI | TensorFlow, PyTorch, Python |
+| 임베디드 | C언어, MCU, STM32, 펌웨어 |
+| 웹 개발 | React, Spring Boot, Node.js |
+| 안드로이드 | Android Studio, ML Kit, Kotlin |
+| 알고리즘 | 배열, 트리, DP, Big-O |
+| 전자 SW | PCB, 회로이론, PLC, 로봇제어 |
+| 로봇 | ROS, 제어공학, 온디바이스 AI |
