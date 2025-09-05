@@ -86,7 +86,7 @@
 1.  **코드 클론:**
     터미널 또는 Git Bash에서 다음 명령어를 실행하여 프로젝트 소스 코드를 로컬 컴퓨터로 복사합니다.
     ```bash
-    git clone https://github.com/당신의깃허브아이디/IdiomQuizApp.git
+    git clone https://github.com/MaINoo999/IdiomQuizApp.git
     ```
 2.  **프로젝트 열기:**
     IntelliJ IDEA, Eclipse와 같은 Java 통합 개발 환경(IDE)을 실행하고, 클론한 프로젝트 폴더를 'Open Project' 또는 'Import Project' 기능을 통해 엽니다.
