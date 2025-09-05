@@ -83,14 +83,9 @@
 
 ## 프로젝트 실행 방법
 
-1.  **코드 클론:**
-    터미널 또는 Git Bash에서 다음 명령어를 실행하여 프로젝트 소스 코드를 로컬 컴퓨터로 복사합니다.
-    ```bash
-    git clone https://github.com/MaINoo999/IdiomQuizApp.git
-    ```
-2.  **프로젝트 열기:**
-    IntelliJ IDEA, Eclipse와 같은 Java 통합 개발 환경(IDE)을 실행하고, 클론한 프로젝트 폴더를 'Open Project' 또는 'Import Project' 기능을 통해 엽니다.
-3.  **데이터 파일 확인:**
+1.  **프로젝트 열기:**
+    IntelliJ IDEA, Eclipse와 같은 Java 통합 개발 환경(IDE)을 실행하고, 프로젝트 폴더를 'Open Project' 또는 'Import Project' 기능을 통해 엽니다.
+2.  **데이터 파일 확인:**
     프로젝트의 루트 디렉토리 (최상위 폴더) 내에 `data`라는 폴더가 있는지, 그리고 그 안에 `idioms.csv` 파일이 올바르게 위치하는지 확인합니다. 만약 없다면 수동으로 생성하고 첨부된 `idioms.csv` 내용을 복사하여 붙여넣어야 합니다.
-4.  **실행:**
+3.  **실행:**
     `src` 폴더 내의 `IdiomQuizApp.java` 파일을 열고, `main` 메서드를 실행합니다. IDE의 'Run' 버튼(초록색 삼각형 아이콘)을 클릭하거나, 해당 파일을 마우스 오른쪽 버튼으로 클릭하여 'Run IdiomQuizApp.main()' 옵션을 선택하여 실행할 수 있습니다.
