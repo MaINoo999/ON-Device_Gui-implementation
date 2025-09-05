@@ -65,13 +65,19 @@
     2. GitHub 저장소에 `images/` 또는 `docs/` 폴더를 만들고 이미지 파일을 직접 업로드한 후, 아래와 같이 경로를 지정합니다.
 -->
 ### 앱 실행 초기 화면
-![초기 화면](images/screenshot_start.png) 
+![초기 화면](image/시작화면.png) 
 
 ### 퀴즈 진행 화면
-![퀴즈 화면](images/screenshot_quiz.png)
+![퀴즈 화면](image/문제출제화면.png)
+
+### 퀴즈 정답 화면
+![퀴즈 화면](image/시작화면.png)
+
+### 퀴즈 오답 화면
+![퀴즈 화면](image/오답화면.png)
 
 ### 퀴즈 결과 화면
-![결과 화면](images/screenshot_result.png)
+![결과 화면](image/모든문제결과화면.png)
 
 ---
 
